@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = r'''# RideFlow 🚗☁️
+# RideFlow 🚗☁️
 
 ### A Multi-Cloud, Cloud-Native Microservices Platform for Real-Time Ride-Hailing
 
@@ -14,7 +12,7 @@ The system uses **AWS as the primary application cloud** and **Google Cloud Plat
 
 The following diagram represents the current RideFlow system architecture and the relationship between the application, infrastructure, data, CI/CD, and analytics layers.
 
-![RideFlow Architecture](docs/RideFlow_Multicloud_Architecture.png)
+![RideFlow Architecture](docs/RideFlow_Multicloud_Architecture.jpg)
 
 > **High Availability:** The AWS workload is designed to span three Availability Zones in `ap-south-1` (`ap-south-1a`, `ap-south-1b`, `ap-south-1c`).
 
